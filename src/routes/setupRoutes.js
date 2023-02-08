@@ -1,7 +1,7 @@
-import privateRoutes from "./private";
+import usersRoutes from "./users";
 
 const setupRoutes = (app) => {
-    app.use("/users", privateRoutes);
+    app.use("/users", usersRoutes);
 };
 
 export default setupRoutes;
